@@ -167,7 +167,7 @@ def _add_line_to_text(line, text):
 
 def _add_section_to_summary(section, summary):
     if summary != "" and section != "":
-        summary += " " + u"\u2022" + " "
+        summary += " " + "\u2022" + " "
     summary += section
     return summary
 
